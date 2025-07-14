@@ -1,0 +1,15 @@
+# 这些是支持的资助模式平台
+
+github：# 替换为最多 4 个启用 GitHub 赞助者功能的用户名，例如，[user1， user2输入：]
+Patreon：# 替换为一个Patreon用户名
+开放集合：# 替换为一个 Open Collective 用户名
+ko_fi：# 替换为一个Ko-fi用户名
+tidelift：# 替换为单个 Tidelift 平台名称/包名称，例如，npm/babel
+社区桥：# 替换为单个社区桥项目名称，例如，云 Foundry
+Liberapay：# 替换为一个Liberapay用户名
+issuehunt：# 替换为一个 IssueHunt 用户名
+lfx_crowdfunding：# 替换为单个LFX众包项目名称，例如，cloud-foundry
+
+买我一杯咖啡：# 替换为一个 Buy Me a Coffee 用户名
+谢谢_dev：# 替换为一个 thanks.dev 用户名
+自定义：# 替换为最多 4 个自定义赞助商链接，例如，['link1', 'link2']
