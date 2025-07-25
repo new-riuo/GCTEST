@@ -1,0 +1,69 @@
+            - name: Setup Node.js environment
+  uses: actions/setup-node@v3.9.1
+  with:
+    # Set always-auth in npmrc.
+    always-auth: # optional, default is false
+    # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
+    node-version: # optional
+    # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+    node-version-file: # optional
+    # Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default.
+    architecture: # optional
+    # Set this option if you want the action to check for the latest available version that satisfies the version spec.
+    check-latest: # optional
+    # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN.
+    registry-url: # optional
+    # Optional scope for authenticating against scoped registries. Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/).
+    scope: # optional
+    # Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.
+    token: # optional, default is ${{ github.server_url == 'https://github.com' && github.token || '' }}
+    # Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm.
+    cache: # optional
+    # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
+    cache-dependency-path: # optional
+                      - name: Setup Node.js environment
+  uses: actions/setup-node@v3.9.1
+  with:
+    # Set always-auth in npmrc.
+    always-auth: # optional, default is false
+    # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
+    node-version: # optional
+    # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+    node-version-file: # optional
+    # Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default.
+    architecture: # optional
+    # Set this option if you want the action to check for the latest available version that satisfies the version spec.
+    check-latest: # optional
+    # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN.
+    registry-url: # optional
+    # Optional scope for authenticating against scoped registries. Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/).
+    scope: # optional
+    # Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.
+    token: # optional, default is ${{ github.server_url == 'https://github.com' && github.token || '' }}
+    # Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm.
+    cache: # optional
+    # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
+    cache-dependency-path: # optional
+          - 名称：设置Node.js环境
+  使用：actions/setup-node@v3.9.1
+  附带：
+    # 在npmrc中设置always-auth。
+    always-auth:  # 可选，默认为false
+    # 要使用的版本规范。示例：12.x、10.15.1、>=10.15.0。
+    node-version:  # 可选
+    # 包含要使用的版本规范的文件。示例：.nvmrc、.node-version、.tool-versions。
+    node-version-file:  # 可选
+    # Node要使用的目标架构。示例：x86、x64。默认将使用系统架构。
+    architecture:  # 可选
+    # 如果你希望该操作检查是否有满足版本规范的最新可用版本，请设置此选项。
+    check-latest:  # 可选
+    # 用于设置身份验证的可选注册表。将在项目级别的.npmrc和.yarnrc文件中设置注册表，并设置身份验证以从env.NODE_AUTH_TOKEN读取。
+    registry-url:  # 可选
+    # 针对有范围的注册表进行身份验证的可选范围。使用GitHub Packages注册表（https://npm.pkg.github.com/）时，将回退到存储库所有者。
+    scope:  # 可选
+    # 用于从node-versions拉取Node发行版。由于有默认值，用户通常不需要提供此值。在github.com上运行此操作时，默认值就足够了。在GHES上运行时，如果你遇到速率限制，可以传递github.com的个人访问令牌。
+    token:  # 可选，默认为${{ github.server_url == 'https://github.com' && github.token || '' }}
+    # 用于指定默认目录中进行缓存的包管理器。支持的值：npm、yarn、pnpm。
+    cache:  # 可选
+    # 用于指定依赖项文件的路径：package-lock.json、yarn.lock等。支持通配符或文件名列表，以缓存多个依赖项。
+    cache-dependency-path:  # 可选
